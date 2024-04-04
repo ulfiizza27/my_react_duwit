@@ -8,7 +8,7 @@ interface INavbar {}
 export default function Navbar({ }: INavbar) {
   return (
     <div className="bg-[#F4F4F5]">
-      <nav className="container mx-auto text-black pt-[31px] px-20">
+      <nav className="container mx-auto text-black pt-[31px]">
           <div className="flex justify-between items-center mb-[30px]">
             <div>
               <button className="focus:outline-none">
